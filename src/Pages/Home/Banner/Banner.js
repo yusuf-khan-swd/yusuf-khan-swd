@@ -1,5 +1,6 @@
 import React from 'react';
 import myPic from '../../../assets/my-pic.jpg';
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
   return (
@@ -9,7 +10,13 @@ const Banner = () => {
           <div className='card-body'>
             <p>Hello I'm,</p>
             <h2 className='card-title text-6xl'>Yusuf</h2>
-            <p className='text-lg'>MERN Stack Developer</p>
+            <p className='text-lg'>
+              <Typewriter options={{
+                strings: ['A MERN Stack Developer'],
+                autoStart: true,
+                loop: true,
+              }}></Typewriter>
+            </p>
             <p className="text-sm">A self-motivated and enthusiastic web developer with a deep interest in JavaScript and other programming languages. Seeking a Web Developer position in a company where I can use my skills and develop my skills.</p>
             <div className='mt-5'>
               <a className="bg-gray-600 btn btn-ghost w-full md:w-52 mb-2 md:mr-2" href='https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view' target={`_blank`}>Download My Resume</a>
