@@ -28,7 +28,7 @@ const Projects = () => {
     }
   ];
   return (
-    <div>
+    <div id='projects'>
       <h2 className="text-3xl mb-5 font-bold ml-3">Some of My Projects</h2>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16'>
         <PhotoProvider>

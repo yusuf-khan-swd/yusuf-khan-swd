@@ -5,6 +5,7 @@ const Navbar = () => {
   const menuItems = <>
     <li><NavLink className="m-1" to="/home">Home</NavLink></li>
     <li><a href="https://form.jotform.com/223433296548058" target={`_blank`} className="m-1">Contact</a></li>
+    <li><a href="#projects">Project</a></li>
   </>
 
   return (
