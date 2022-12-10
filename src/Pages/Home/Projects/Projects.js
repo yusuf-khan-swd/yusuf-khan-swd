@@ -15,7 +15,7 @@ const Projects = () => {
     {
       _id: 2,
       name: "Legal Network",
-      img: "https://i.ibb.co/5kmKZ0S/legal-network.png",
+      img: "https://i.ibb.co/R2ZC89S/legal-network.png",
       live: "https://legal-network-a9c8a.web.app/",
       description: "This project has private routes to block an unauthenticated user. Used JWT token to verify a user is authorized to access this route. After the user verifies Users can add a service, add a review and delete or modify the review."
     },
