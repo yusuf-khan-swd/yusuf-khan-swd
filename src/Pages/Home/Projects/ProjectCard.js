@@ -13,9 +13,9 @@ const ProjectCard = ({ project }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p>{description}</p>
+          <p>{description.length > 250 ? description.slice(0, 249) + '...' : description}</p>
           <div className="card-actions justify-end">
-            <a href={live} className="btn">Live Site</a>
+            <a className="btn" href={live} target={`_blank`}>Live Site</a>
           </div>
         </div>
       </div>
