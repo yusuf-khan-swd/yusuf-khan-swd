@@ -10,16 +10,14 @@ const Banner = () => {
           <div className='card-body'>
             <p>Hello I'm,</p>
             <h2 className='card-title text-6xl'>Yusuf</h2>
-            <p className='text-lg'>
-              <Typewriter options={{
-                strings: ['A MERN Stack Developer'],
-                autoStart: true,
-                loop: true,
-              }}></Typewriter>
-            </p>
+            <Typewriter options={{
+              strings: ['A MERN Stack Developer'],
+              autoStart: true,
+              loop: true,
+            }}></Typewriter>
             <p className="text-sm">A self-motivated and enthusiastic web developer with a deep interest in JavaScript and other programming languages. Seeking a Web Developer position in a company where I can use my skills and develop my skills.</p>
-            <div className='mt-5'>
-              <a className="bg-gray-600 btn btn-ghost w-full md:w-52 mb-2 md:mr-2" href='https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view' target={`_blank`}>Download My Resume</a>
+            <div className='mt-6'>
+              <a className="bg-gray-600 btn btn-ghost w-full md:w-52 mb-3 md:mr-2" href='https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view' target={`_blank`}>Download My Resume</a>
               <a href='https://form.jotform.com/223433296548058' target={`_blank`} className='btn w-full md:w-52'>Contact with Me</a>
             </div>
           </div>
