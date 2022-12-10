@@ -1,5 +1,7 @@
 import React from 'react';
+import { PhotoProvider } from 'react-photo-view';
 import ProjectCard from './ProjectCard';
+import 'react-photo-view/dist/react-photo-view.css';
 
 const Projects = () => {
   const projects = [
@@ -29,9 +31,11 @@ const Projects = () => {
     <div>
       <h2 className="text-3xl mb-5">Some of My Projects</h2>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16'>
-        {
-          projects.map(project => <ProjectCard key={project._id} project={project}></ProjectCard>)
-        }
+        <PhotoProvider>
+          {
+            projects.map(project => <ProjectCard key={project._id} project={project}></ProjectCard>)
+          }
+        </PhotoProvider>
       </div>
 
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { PhotoView } from 'react-photo-view';
 
 const ProjectCard = ({ project }) => {
   const { name, img, live, description } = project;
@@ -6,7 +7,9 @@ const ProjectCard = ({ project }) => {
     <div>
       <div className="card card-compact shadow-xl border h-full m-3">
         <figure className='w-full'>
-          <img className='w-full h-full' src={img} alt={name} />
+          <PhotoView src={img}>
+            <img className='w-full h-full' src={img} alt={name} />
+          </PhotoView>
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
