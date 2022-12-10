@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import myPic from '../../../assets/my-pic.jpg';
 
 const Banner = () => {
@@ -14,7 +13,7 @@ const Banner = () => {
             <p className="text-sm">A self-motivated and enthusiastic web developer with a deep interest in JavaScript and other programming languages. Seeking a Web Developer position in a company where I can use my skills and develop my skills.</p>
             <div className='mt-5'>
               <a className="bg-gray-600 btn btn-ghost w-full md:w-52 mb-2 md:mr-2" href='https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view' target={`_blank`}>Download My Resume</a>
-              <Link to="/contact" className='btn w-full md:w-52'>Contact with Me</Link>
+              <a href='https://form.jotform.com/223433296548058' target={`_blank`} className='btn w-full md:w-52'>Contact with Me</a>
             </div>
           </div>
         </div>

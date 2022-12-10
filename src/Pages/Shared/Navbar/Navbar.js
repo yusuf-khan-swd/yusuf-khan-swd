@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   const menuItems = <>
     <li><NavLink className="m-1" to="/home">Home</NavLink></li>
-    <li><NavLink className="m-1" to="/contact">Contact</NavLink></li>
+    <li><a href="https://form.jotform.com/223433296548058" target={`_blank`} className="m-1">Contact</a></li>
   </>
 
   return (
