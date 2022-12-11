@@ -22,8 +22,13 @@ const ProjectCard = ({ project }) => {
             }
           </ul>
           <div className="card-actions justify-between mt-3">
-            <a className="btn" href={live} target={`_blank`}>Live Site</a>
-            <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
+            <div>
+              <a className="btn mr-2" href={live} target={`_blank`}>Live Site</a>
+              <a className="btn" href={live} target={`_blank`}>Github</a>
+            </div>
+            <div>
+              <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
+            </div>
           </div>
         </div>
       </div>
