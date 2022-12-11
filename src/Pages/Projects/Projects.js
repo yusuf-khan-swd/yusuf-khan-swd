@@ -3,15 +3,16 @@ import { PhotoProvider } from 'react-photo-view';
 import ProjectCard from './ProjectCard';
 import 'react-photo-view/dist/react-photo-view.css';
 import { useQuery } from '@tanstack/react-query';
+import axios from 'axios';
 
 const Projects = () => {
 
   const { data: projects, isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const data = await fetch("fakeProjectData.json");
-      const res = await data.json();
-      return res;
+      const res = await axios.get("fakeProjectData.json");
+      const data = await res.data;
+      return data;
     }
   });
 
