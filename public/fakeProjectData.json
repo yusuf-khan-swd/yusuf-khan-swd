@@ -8,7 +8,12 @@
       "Create Admin, Seller, and Buyer private routes to give access only to the same user type.",
       "Buyers can buy and pay with the stripe payment method system.",
       "JWT token to verify a user is authorized. Using middleware check a user Admin or Seller.",
-      "User can create seller or buyer account"
+      "User can create seller or buyer account",
+      "Login user can report a product to admin, or book a product.",
+      "Admin can view all sellers and buyers information. And delete a seller/buyer or make a admin."
+    ],
+    "technology": [
+      "React.js", "react-router-dom", "react-hook-form", "Tailwind CSS", "DaisyUI", "stripe", "react-query", "axios", "date-fns", "firebase", "vercel", "Express.js", "react-hot-toast", "react-icons"
     ]
   },
   {
@@ -17,9 +22,15 @@
     "img": "https://i.ibb.co/R2ZC89S/legal-network.png",
     "live": "https://legal-network-a9c8a.web.app/",
     "description": [
+      "Project have dynamic title using custom hook useTitle.",
+      "Anyone can view services in home page and in services route.",
       "This project has private routes to block an unauthenticated user.",
-      "Used JWT token to verify a user is authorized to access this route.",
-      "After the user verifies Users can add a service, add a review and delete or modify the review."
+      "JWT to verify a user is authorize to access a private route.",
+      "After login user can add service and review.",
+      "After login user can view user review and delete or modified the review."
+    ],
+    "technology:": [
+      "React.js", "react-router-dom", "react-hook-form", "Tailwind CSS", "DaisyUI", "firebase", "MongoDB", "firebase", "Express.js", "vercel", "react-photo-view"    
     ]
   },
   {
@@ -31,7 +42,12 @@
       "Users can log in or register with email and password or with Google And Github.",
       "Using routing shows users different components.",
       "Private routing feature to block unauthorized users.",
-      "If a user is logged in then the user can access the private route."
+      "If a user is logged in then the user can access the private route.",
+      "In courses route we show all courses. With name as sidebar and img and name with content details.",
+      "After a course is click it will redirect to course details route where we show details of the course with Price."
+    ],
+    "technology": [
+      "React.js", "react-router-dom", "Tailwind CSS", "firebase", "Vercel", "Express.js", "react-to-pdf", "react-hot-toast", "react-icons"
     ]
   }
 ]
