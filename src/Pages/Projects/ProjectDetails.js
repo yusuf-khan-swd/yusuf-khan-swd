@@ -7,11 +7,11 @@ import Loading from '../Shared/Loading/Loading';
 const ProjectDetails = () => {
   const { id } = useParams();
 
-  const { data: projects, isLoading } = useQuery({
+  const { data: project, isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const res = await fetch("fakeProjectData.json");
-      const data = await res.json();
+      const res = await axios.get(`http://localhost:5000/projects/${id}`);
+      const data = await res.data;
       return data;
     }
   });
@@ -20,7 +20,7 @@ const ProjectDetails = () => {
     return <Loading></Loading>
   }
 
-  console.log(projects);
+  console.log(project);
 
   return (
     <div>

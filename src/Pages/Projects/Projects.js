@@ -11,7 +11,7 @@ const Projects = () => {
   const { data: projects, isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const res = await axios.get("fakeProjectData.json");
+      const res = await axios.get("http://localhost:5000/projects");
       const data = await res.data;
       return data;
     }
