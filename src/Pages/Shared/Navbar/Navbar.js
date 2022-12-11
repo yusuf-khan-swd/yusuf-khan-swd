@@ -10,17 +10,22 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
+        <NavLink className="m-1" to="/about">
+          About
+        </NavLink>
+      </li>
+      <li>
+        <NavLink className="m-1" to="/projects">
+          Project
+        </NavLink>
+      </li>
+      <li>
         <a
           className="m-1"
           href="https://form.jotform.com/223433296548058"
           target={`_blank`}
         >
           Contact
-        </a>
-      </li>
-      <li>
-        <a className="m-1" href="#projects">
-          Project
         </a>
       </li>
     </>

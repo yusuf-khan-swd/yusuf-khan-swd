@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
-import Contact from "../../Pages/Home/Contact/Contact";
+import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home/Home";
+import Projects from "../../Pages/Projects/Projects";
 import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 
 const routes = createBrowserRouter([
@@ -19,9 +20,14 @@ const routes = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: "/contact",
-        element: <Contact></Contact>
+        path: "/about",
+        element: <About></About>
+      },
+      {
+        path: "/projects",
+        element: <Projects></Projects>
       }
+
     ]
   }
 ]);
