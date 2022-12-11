@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p className='text-lg'>{description.length > 250 ? description.slice(0, 249) + '...' : description}</p>
+          <p className='text-lg'>{description.length > 3 ? description.slice(0, 3) : description}</p>
           <div className="card-actions justify-end">
             <a className="btn" href={live} target={`_blank`}>Live Site</a>
           </div>

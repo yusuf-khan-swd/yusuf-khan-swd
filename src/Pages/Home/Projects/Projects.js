@@ -13,7 +13,8 @@ const Projects = () => {
       description: [
         "Create Admin, Seller, and Buyer private routes to give access only to the same user type.",
         "Buyers can buy and pay with the stripe payment method system.",
-        "JWT token to verify a user is authorized. Using middleware check a user Admin or Seller."
+        "JWT token to verify a user is authorized. Using middleware check a user Admin or Seller.",
+        "User can create seller or buyer account"
       ],
     },
     {
