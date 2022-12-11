@@ -21,14 +21,23 @@ const Projects = () => {
       name: "Legal Network",
       img: "https://i.ibb.co/R2ZC89S/legal-network.png",
       live: "https://legal-network-a9c8a.web.app/",
-      description: "This project has private routes to block an unauthenticated user. Used JWT token to verify a user is authorized to access this route. After the user verifies Users can add a service, add a review and delete or modify the review."
+      description: [
+        "This project has private routes to block an unauthenticated user.",
+        "Used JWT token to verify a user is authorized to access this route.",
+        "After the user verifies Users can add a service, add a review and delete or modify the review."
+      ],
     },
     {
       _id: 3,
       name: "Invest In Knowledge",
       img: "https://i.ibb.co/tJ5Rs48/invest-in-knowledge.png",
       live: "https://invest-in-knowledge.web.app/",
-      description: "Users can log in or register with email and password or with Google And Github. Using routing shows users different components. Private routing feature to block unauthorized users. If a user is logged in then the user can access the private route."
+      description: [
+        "Users can log in or register with email and password or with Google And Github.",
+        "Using routing shows users different components.",
+        "Private routing feature to block unauthorized users.",
+        "If a user is logged in then the user can access the private route."
+      ],
     }
   ];
   return (
