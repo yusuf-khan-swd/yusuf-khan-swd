@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { PhotoProvider } from 'react-photo-view';
 import ProjectCard from './ProjectCard';
 import 'react-photo-view/dist/react-photo-view.css';
+import { useQuery } from '@tanstack/react-query';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  const [isDataLoading, setIsDataLoading] = useState(false);
 
-  useEffect(() => {
-    setIsDataLoading(true);
-    fetch("fakeProjectData.json")
-      .then(res => res.json())
-      .then(data => {
-        setProjects(data);
-        setIsDataLoading(false);
-      })
-  }, [isDataLoading]);
+  const { data: projects, isLoading } = useQuery({
+    queryKey: ["projects"],
+    queryFn: async () => {
+      const data = await fetch("fakeProjectData.json");
+      const res = await data.json();
+      return res;
+    }
+  });
 
-  if (isDataLoading) {
+
+  if (isLoading) {
     return <h2 className='text-3xl font-bold'>Loading....</h2>
   }
 
