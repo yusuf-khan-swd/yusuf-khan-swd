@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
             }
           </ul>
           <div className="card-actions justify-end">
-            <Link className='btn' to={`/project/details/${project._id}`}>Details</Link>
+            <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
             <a className="btn" href={live} target={`_blank`}>Live Site</a>
           </div>
         </div>

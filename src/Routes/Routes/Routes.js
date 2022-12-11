@@ -29,7 +29,7 @@ const routes = createBrowserRouter([
         element: <Projects></Projects>
       },
       {
-        path: "/project/details/:id",
+        path: "/projects/:id",
         element: <ProjectDetails></ProjectDetails>
       }
 
