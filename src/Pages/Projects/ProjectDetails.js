@@ -6,10 +6,12 @@ import { useParams } from 'react-router-dom';
 const ProjectDetails = () => {
   const { id } = useParams();
 
-  const { } = useQuery({
+  const { data: projects, isLoading } = useQuery({
     queryKey: ["project"],
     queryFn: async () => {
-      const res = axios.get("fakeProjectData")
+      const res = await axios.get("fakeProjectData");
+      const data = await res.data;
+      return data;
     }
   });
 

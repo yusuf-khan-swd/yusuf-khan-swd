@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 import 'react-photo-view/dist/react-photo-view.css';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
+import Loading from '../Shared/Loading/Loading';
 
 const Projects = () => {
 
@@ -18,7 +19,7 @@ const Projects = () => {
 
 
   if (isLoading) {
-    return <h2 className='text-3xl font-bold'>Loading....</h2>
+    return <Loading></Loading>
   }
 
   return (
