@@ -10,7 +10,11 @@ const Projects = () => {
       name: "Thrift Store",
       img: "https://i.ibb.co/YXr3Ty1/thrift-store.png",
       live: "https://thrift-store-88291.web.app/",
-      description: "Create Admin, Seller, and Buyer private routes to give access only to the same user type. Buyers can buy and pay with the stripe payment method system. JWT token to verify a user is authorized. Using middleware check a user Admin or Seller."
+      description: [
+        "Create Admin, Seller, and Buyer private routes to give access only to the same user type.",
+        "Buyers can buy and pay with the stripe payment method system.",
+        "JWT token to verify a user is authorized. Using middleware check a user Admin or Seller."
+      ],
     },
     {
       _id: 2,
