@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 const ProjectDetails = () => {
   const project = useLoaderData();
 
-  const { name, img, live, description } = project;
+  const { name, img, live, github, description } = project;
   const projectDescription = description;
 
   return (
@@ -26,7 +26,7 @@ const ProjectDetails = () => {
             </ul>
             <div className="card-actions justify-end">
               <div>
-                <a className='btn' href="https://github.com/yusuf-khan-swd">Github Link</a>
+                <a className='btn' href={github} target={`_blank`}>Github Link</a>
               </div>
               <div>
                 <a className="btn" href={live} target={`_blank`}>Live Site</a>

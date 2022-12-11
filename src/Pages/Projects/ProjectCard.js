@@ -3,7 +3,7 @@ import { PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-  const { name, img, live, description } = project;
+  const { name, img, live, github, description } = project;
   const projectDescription = description.length > 3 ? description.slice(0, 3) : description;
 
   return (
@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
           <div className="card-actions justify-between mt-3">
             <div>
               <a className="btn mr-2" href={live} target={`_blank`}>Live Site</a>
-              <a className="btn" href={live} target={`_blank`}>Github</a>
+              <a className="btn" href={github} target={`_blank`}>Github</a>
             </div>
             <div>
               <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
