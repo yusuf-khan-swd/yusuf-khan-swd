@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       <div className="card card-compact shadow-xl border border-slate-600 h-full m-3 lg:m-0">
         <figure className='w-full'>
           <PhotoView src={img}>
-            <img className='w-full h-full' src={img} alt={name} />
+            <img className='w-full h-[300px] cursor-pointer' src={img} alt={name} />
           </PhotoView>
         </figure>
         <div className="card-body">
