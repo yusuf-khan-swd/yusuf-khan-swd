@@ -51,20 +51,26 @@ const Banner = () => {
                 Contact with Me
               </a>
             </div>
-            <div>
-              <button>
-                <a href="https://wwww.facebook.com">
-                  <FaFacebookSquare className="dark:text-slate-400 dark:hover:text-slate-500 text-blue-700 hover:text-blue-600 text-5xl"></FaFacebookSquare>
+            <div className="flex justify-center lg:justify-start mt-2">
+              <button className="mr-3">
+                <a href="https://www.linkedin.com/in/yusuf-khan-swd/" target={`_blank`}>
+                  <FaLinkedin className="text-slate-500 hover:text-slate-600 text-5xl"></FaLinkedin>
                 </a>
               </button>
-              <button>
-                <FaGithub></FaGithub>
+              <button className="mr-3">
+                <a href="https://github.com/yusuf-khan-swd" target={`_blank`}>
+                  <FaGithub className="text-slate-500 hover:text-slate-600 text-5xl"></FaGithub>
+                </a>
               </button>
-              <button>
-                <FaLinkedin></FaLinkedin>
+              <button className="mr-3">
+                <a href="mailto:yusufkhan.swd@gmail.com" target={`_blank`}>
+                  <FaEnvelope className="text-slate-500 hover:text-slate-600 text-5xl"></FaEnvelope>
+                </a>
               </button>
-              <button>
-                <FaEnvelope></FaEnvelope>
+              <button className="mr-3">
+                <a href="https://www.facebook.com/profile.php?id=100067129607025" target={`_blank`}>
+                  <FaFacebookSquare className="text-slate-500 hover:text-slate-600 text-5xl"></FaFacebookSquare>
+                </a>
               </button>
             </div>
           </div>
