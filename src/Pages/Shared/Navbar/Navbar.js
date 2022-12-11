@@ -20,6 +20,11 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
+        <NavLink to="/blog" className="m-1">
+          Blog
+        </NavLink>
+      </li>
+      <li>
         <a
           className="m-1"
           href="https://form.jotform.com/223433296548058"

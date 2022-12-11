@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home/Home";
+import Blog from "../../Pages/Others/Blog/Blog";
 import ProjectDetails from "../../Pages/Projects/ProjectDetails";
 import Projects from "../../Pages/Projects/Projects";
 import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
@@ -31,8 +32,11 @@ const routes = createBrowserRouter([
       {
         path: "/projects/:id",
         element: <ProjectDetails></ProjectDetails>
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>
       }
-
     ]
   }
 ]);
