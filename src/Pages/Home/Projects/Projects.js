@@ -26,7 +26,7 @@ const Projects = () => {
     {
       _id: 3,
       name: "Invest In Knowledge",
-      img: "https://i.ibb.co/NtyhXSt/invest-in-knowledge.png",
+      img: "https://i.ibb.co/tJ5Rs48/invest-in-knowledge.png",
       live: "https://invest-in-knowledge.web.app/",
       description: "Users can log in or register with email and password or with Google And Github. Using routing shows users different components. Private routing feature to block unauthorized users. If a user is logged in then the user can access the private route."
     }

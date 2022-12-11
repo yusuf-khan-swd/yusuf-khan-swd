@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   const { name, img, live, description } = project;
   return (
     <div>
-      <div className="card card-compact shadow-xl border h-full m-3 lg:m-0">
+      <div className="card card-compact shadow-xl border border-slate-600 h-full m-3 lg:m-0">
         <figure className='w-full'>
           <PhotoView src={img}>
             <img className='w-full h-full' src={img} alt={name} />
