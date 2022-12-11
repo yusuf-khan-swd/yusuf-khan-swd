@@ -11,7 +11,7 @@ const ProjectDetails = () => {
   const { data: project, isLoading } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const res = await axios.get(`http://localhost:5000/projects/${id}`);
+      const res = await axios.get(`https://yusuf-khan-swd-server.vercel.app/projects/${id}`);
       const data = await res.data;
       return data;
     }
