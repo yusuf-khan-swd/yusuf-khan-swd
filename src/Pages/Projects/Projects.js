@@ -1,5 +1,4 @@
 import React from 'react';
-import { PhotoProvider } from 'react-photo-view';
 import ProjectCard from './ProjectCard';
 import 'react-photo-view/dist/react-photo-view.css';
 import { useQuery } from '@tanstack/react-query';
@@ -26,11 +25,9 @@ const Projects = () => {
     <div className='container mx-auto mt-8'>
       <h2 className="text-4xl font-bold ml-3 text-center mb-8">Some of My Projects</h2>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16'>
-        <PhotoProvider>
-          {
-            projects.map(project => <ProjectCard key={project._id} project={project}></ProjectCard>)
-          }
-        </PhotoProvider>
+        {
+          projects.map(project => <ProjectCard key={project._id} project={project}></ProjectCard>)
+        }
       </div>
     </div>
   );
