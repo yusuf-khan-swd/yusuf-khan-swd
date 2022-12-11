@@ -1,27 +1,9 @@
-import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
 import React from 'react';
 import { PhotoView } from 'react-photo-view';
-import { useParams } from 'react-router-dom';
-import Loading from '../Shared/Loading/Loading';
+import { useLoaderData } from 'react-router-dom';
 
 const ProjectDetails = () => {
-  const { id } = useParams();
-
-  const { data: project, isLoading } = useQuery({
-    queryKey: ["projects"],
-    queryFn: async () => {
-      const res = await axios.get(`https://yusuf-khan-swd-server.vercel.app/projects/${id}`);
-      const data = await res.data;
-      return data;
-    }
-  });
-
-  if (isLoading) {
-    return <Loading></Loading>
-  }
-
-  console.log(project);
+  const project = useLoaderData();
 
   const { name, img, live, description } = project;
   const projectDescription = description;

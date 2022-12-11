@@ -31,7 +31,8 @@ const routes = createBrowserRouter([
       },
       {
         path: "/projects/:id",
-        element: <ProjectDetails></ProjectDetails>
+        element: <ProjectDetails></ProjectDetails>,
+        loader: ({ params }) => fetch(`https://yusuf-khan-swd-server.vercel.app/projects/${params.id}`)
       },
       {
         path: "/blog",
