@@ -21,9 +21,9 @@ const ProjectCard = ({ project }) => {
               projectDescription.map((description, index) => <li className='mb-1' key={index}>{description}</li>)
             }
           </ul>
-          <div className="card-actions justify-end">
-            <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
+          <div className="card-actions justify-between mt-3">
             <a className="btn" href={live} target={`_blank`}>Live Site</a>
+            <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
           </div>
         </div>
       </div>
