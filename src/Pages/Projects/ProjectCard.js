@@ -21,14 +21,14 @@ const ProjectCard = ({ project }) => {
               projectDescription.map((description, index) => <li className='mb-1' key={index}>{description}</li>)
             }
           </ul>
-          <div className="card-actions justify-between mt-3">
-            <div>
-              <a className="btn mr-2" href={live} target={`_blank`}>Live Site</a>
-              <a className="btn" href={github} target={`_blank`}>Github</a>
-            </div>
-            <div>
-              <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
-            </div>
+        </div>
+        <div className="card-actions justify-between p-4">
+          <div>
+            <a className="btn mr-2" href={live} target={`_blank`}>Live Site</a>
+            <a className="btn" href={github} target={`_blank`}>Github</a>
+          </div>
+          <div>
+            <Link className='btn' to={`/projects/${project._id}`}>Details</Link>
           </div>
         </div>
       </div>

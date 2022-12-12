@@ -29,13 +29,13 @@ const ProjectDetails = () => {
                 projectDescription.map((description, index) => <li className='mb-1' key={index}>{description}</li>)
               }
             </ul>
-            <div className="card-actions justify-end">
-              <div>
-                <a className='btn' href={github} target={`_blank`}>Github Link</a>
-              </div>
-              <div>
-                <a className="btn" href={live} target={`_blank`}>Live Site</a>
-              </div>
+          </div>
+          <div className="card-actions justify-end p-4">
+            <div>
+              <a className='btn' href={github} target={`_blank`}>Github Link</a>
+            </div>
+            <div>
+              <a className="btn" href={live} target={`_blank`}>Live Site</a>
             </div>
           </div>
         </div>
