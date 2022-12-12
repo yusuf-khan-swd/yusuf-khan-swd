@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 const ProjectDetails = () => {
   const project = useLoaderData();
 
-  const { name, live, github, description, images } = project;
+  const { name, live, github, description, images, technology } = project;
   const projectDescription = description;
 
   return (
@@ -23,7 +23,7 @@ const ProjectDetails = () => {
             }
           </div>
           <div className="card-body">
-            <h2 className="card-title">{name}</h2>
+            <h2 className="card-title text-3xl mb-3">{name}</h2>
             <ul className='text-lg list-disc ml-4 grid'>
               {
                 projectDescription.map((description, index) => <li className='mb-1' key={index}>{description}</li>)
