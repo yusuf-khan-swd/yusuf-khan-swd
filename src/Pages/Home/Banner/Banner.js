@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import { PhotoView } from "react-photo-view";
 
 const Banner = () => {
   return (
@@ -53,7 +54,10 @@ const Banner = () => {
             </div>
             <div className="flex justify-center lg:justify-start mt-2">
               <button className="mr-3">
-                <a href="https://www.linkedin.com/in/yusuf-khan-swd/" target={`_blank`}>
+                <a
+                  href="https://www.linkedin.com/in/yusuf-khan-swd/"
+                  target={`_blank`}
+                >
                   <FaLinkedin className="text-slate-500 hover:text-slate-600 text-5xl"></FaLinkedin>
                 </a>
               </button>
@@ -68,7 +72,10 @@ const Banner = () => {
                 </a>
               </button>
               <button className="mr-3">
-                <a href="https://www.facebook.com/profile.php?id=100067129607025" target={`_blank`}>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100067129607025"
+                  target={`_blank`}
+                >
                   <FaFacebookSquare className="text-slate-500 hover:text-slate-600 text-5xl"></FaFacebookSquare>
                 </a>
               </button>
@@ -77,7 +84,13 @@ const Banner = () => {
         </div>
         <div className="rounded-lg flex justify-center items-center md:items-start p-8">
           <figure>
-            <img className="h-72 rounded-[100%]" src={myPic} alt="Yusuf" />
+            <PhotoView src={myPic}>
+              <img
+                className="h-72 rounded-[100%] cursor-pointer"
+                src={myPic}
+                alt="Yusuf"
+              />
+            </PhotoView>
           </figure>
         </div>
       </div>
