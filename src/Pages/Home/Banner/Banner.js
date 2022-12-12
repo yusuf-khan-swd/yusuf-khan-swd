@@ -75,7 +75,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-lg flex justify-center items-center lg:items-start">
+        <div className="rounded-lg flex justify-center items-center md:items-start p-8">
           <figure>
             <img className="h-72 rounded-[100%]" src={myPic} alt="Yusuf" />
           </figure>
