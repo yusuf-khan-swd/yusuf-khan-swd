@@ -29,6 +29,12 @@ const ProjectDetails = () => {
                 projectDescription.map((description, index) => <li className='mb-1' key={index}>{description}</li>)
               }
             </ul>
+            <div>
+              <p className='font-bold'>Technology Used</p>
+              {
+                technology.map((tech, index) => <button className='bg-gray-600 text-white m-1 px-2 rounded-md text-sm' key={index}>{tech}</button>)
+              }
+            </div>
           </div>
           <div className="card-actions justify-end p-4">
             <div>
