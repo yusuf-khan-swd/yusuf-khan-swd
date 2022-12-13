@@ -36,7 +36,7 @@ const ProjectDetails = () => {
             </ul>
             <div>
               <p className="font-bold mb-1 mt-3">Technology Used</p>
-              <div className="ml-4">
+              <div className="ml-3">
                 {technology.map((tech, index) => (
                   <button
                     className="bg-gray-600 text-white m-1 px-2 rounded-md text-sm"
