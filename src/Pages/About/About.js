@@ -20,7 +20,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-5">About Me</h2>
               <p className="text-lg leading-relaxed mb-3">
-                Hi ! <br /> This is Yusuf, A MERN stack web developer trying to gain
+                Hi ! <br /> This is Yusuf Khan, A MERN stack web developer trying to gain
                 confidence using my potential in the field of “Web Development”.
                 I always focus on learning new technology.
               </p>
