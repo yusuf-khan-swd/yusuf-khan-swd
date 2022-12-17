@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
   const { name, img, live, github, description } = project;
   const projectDescription = description.length > 3 ? description.slice(0, 3) : description;
-
   return (
     <div>
       <div className="card card-compact shadow-xl border border-slate-600 h-full m-3 lg:m-0">
