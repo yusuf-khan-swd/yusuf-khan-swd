@@ -82,11 +82,11 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-lg flex justify-center items-center md:items-start p-8">
-          <figure>
+        <div className="rounded-lg flex items-center justify-center">
+          <figure className="p-8">
             <PhotoView src={myPic}>
               <img
-                className="h-72 rounded-[100%] cursor-pointer"
+                className="rounded-[100%] cursor-pointer w-full sm:h-[420px] md:h-full lg:h-[420px]"
                 src={myPic}
                 alt="Yusuf"
               />
