@@ -13,7 +13,20 @@
       "Admin can view all sellers and buyers information. And delete a seller/buyer or make a admin."
     ],
     "technology": [
-      "React.js", "react-router-dom", "react-hook-form", "Tailwind CSS", "DaisyUI", "stripe", "react-query", "axios", "date-fns", "firebase", "vercel", "Express.js", "react-hot-toast", "react-icons"
+      "React.js",
+      "react-router-dom",
+      "react-hook-form",
+      "Tailwind CSS",
+      "DaisyUI",
+      "stripe",
+      "react-query",
+      "axios",
+      "date-fns",
+      "firebase",
+      "vercel",
+      "Express.js",
+      "react-hot-toast",
+      "react-icons"
     ]
   },
   {
@@ -30,7 +43,17 @@
       "After login user can view user review and delete or modified the review."
     ],
     "technology:": [
-      "React.js", "react-router-dom", "react-hook-form", "Tailwind CSS", "DaisyUI", "firebase", "MongoDB", "firebase", "Express.js", "vercel", "react-photo-view"    
+      "React.js",
+      "react-router-dom",
+      "react-hook-form",
+      "Tailwind CSS",
+      "DaisyUI",
+      "firebase",
+      "MongoDB",
+      "firebase",
+      "Express.js",
+      "vercel",
+      "react-photo-view"
     ]
   },
   {
@@ -47,7 +70,15 @@
       "After a course is click it will redirect to course details route where we show details of the course with Price."
     ],
     "technology": [
-      "React.js", "react-router-dom", "Tailwind CSS", "firebase", "Vercel", "Express.js", "react-to-pdf", "react-hot-toast", "react-icons"
+      "React.js",
+      "react-router-dom",
+      "Tailwind CSS",
+      "firebase",
+      "Vercel",
+      "Express.js",
+      "react-to-pdf",
+      "react-hot-toast",
+      "react-icons"
     ]
   }
 ]

@@ -1,10 +1,10 @@
-import React from 'react';
-import Banner from '../Banner/Banner';
-import Projects from '../../Projects/Projects';
+import React from "react";
+import Projects from "../../Projects/Projects";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
   return (
-    <div className='container mx-auto'>
+    <div className="container mx-auto">
       <Banner></Banner>
       <Projects></Projects>
     </div>

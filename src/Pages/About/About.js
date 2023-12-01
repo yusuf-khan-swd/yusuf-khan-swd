@@ -20,9 +20,9 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-5">About Me</h2>
               <p className="text-lg leading-relaxed mb-3">
-                Hi ! <br /> This is Yusuf Khan, A MERN stack web developer trying to gain
-                confidence using my potential in the field of “Web Development”.
-                I always focus on learning new technology.
+                Hi ! <br /> This is Yusuf Khan, A MERN stack web developer
+                trying to gain confidence using my potential in the field of
+                “Web Development”. I always focus on learning new technology.
               </p>
               <p className="text-lg">
                 I wish to work in a dynamic organization that will contribute to

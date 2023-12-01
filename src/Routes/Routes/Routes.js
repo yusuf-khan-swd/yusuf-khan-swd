@@ -15,31 +15,34 @@ const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
       },
       {
         path: "/home",
-        element: <Home></Home>
+        element: <Home></Home>,
       },
       {
         path: "/about",
-        element: <About></About>
+        element: <About></About>,
       },
       {
         path: "/projects",
-        element: <Projects></Projects>
+        element: <Projects></Projects>,
       },
       {
         path: "/projects/:id",
         element: <ProjectDetails></ProjectDetails>,
-        loader: ({ params }) => fetch(`https://yusuf-khan-swd-server.vercel.app/projects/${params.id}`)
+        loader: ({ params }) =>
+          fetch(
+            `https://yusuf-khan-swd-server.vercel.app/projects/${params.id}`
+          ),
       },
       {
         path: "/blog",
-        element: <Blog></Blog>
-      }
-    ]
-  }
+        element: <Blog></Blog>,
+      },
+    ],
+  },
 ]);
 
 export default routes;

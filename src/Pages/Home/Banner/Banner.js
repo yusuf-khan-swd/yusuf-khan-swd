@@ -1,6 +1,4 @@
 import React from "react";
-import myPic from "../../../assets/my-pic.jpg";
-import Typewriter from "typewriter-effect";
 import {
   FaEnvelope,
   FaFacebookSquare,
@@ -8,6 +6,8 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { PhotoView } from "react-photo-view";
+import Typewriter from "typewriter-effect";
+import myPic from "../../../assets/my-pic.jpg";
 
 const Banner = () => {
   return (
