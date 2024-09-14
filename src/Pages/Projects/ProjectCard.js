@@ -2,6 +2,8 @@ import React from "react";
 import { PhotoView } from "react-photo-view";
 import { Link } from "react-router-dom";
 
+// TODO: Show Full ScreenShot of page for Image link
+
 const ProjectCard = ({ project }) => {
   const { name, img, live, github, description } = project;
   const projectDescription =
