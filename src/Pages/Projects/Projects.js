@@ -22,9 +22,12 @@ const Projects = () => {
   }
 
   return (
-    <div className="container mx-auto mt-8">
-      <h2 className="text-4xl font-bold ml-3 text-center mb-8">
-        Some of My Projects
+    <div className="container mx-auto mt-12">
+      <h2 className="text-2xl font-bold ml-3 text-center mb-8 uppercase">
+        <span className="text-gray-400 font-bold text-3xl">&lt;</span>
+        <span>My Projects</span>
+        <span className="text-gray-400 font-bold">/</span>
+        <span className="text-gray-400 font-bold text-3xl">&gt;</span>
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
         {projects.map((project) => (
