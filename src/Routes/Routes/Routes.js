@@ -10,28 +10,28 @@ import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
-    errorElement: <DisplayError></DisplayError>,
+    element: <Main />,
+    errorElement: <DisplayError />,
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home />,
       },
       {
         path: "/home",
-        element: <Home></Home>,
+        element: <Home />,
       },
       {
         path: "/about",
-        element: <About></About>,
+        element: <About />,
       },
       {
         path: "/projects",
-        element: <Projects></Projects>,
+        element: <Projects />,
       },
       {
         path: "/projects/:id",
-        element: <ProjectDetails></ProjectDetails>,
+        element: <ProjectDetails />,
         loader: ({ params }) =>
           fetch(
             `https://yusuf-khan-swd-server.vercel.app/projects/${params.id}`
@@ -39,7 +39,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: <Blog></Blog>,
+        element: <Blog />,
       },
     ],
   },
