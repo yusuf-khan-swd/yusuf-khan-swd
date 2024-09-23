@@ -2,6 +2,7 @@ import React from "react";
 import Projects from "../../Projects/Projects";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
+import MyEducation from "../MyEducation/MyEducation";
 import MySkills from "../MySkills/MySkills";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <button className="btn btn-ghost m-1">Skills</button>
         <button className="btn btn-ghost m-1">Education</button>
       </div>
+      <MyEducation />
       <MySkills />
       <Projects />
       <Contact />
