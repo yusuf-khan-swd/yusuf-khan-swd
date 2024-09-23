@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaPhoneSquareAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="p-8 text-center border border-gray-600 rounded-lg shadow-lg">
           <p className="flex justify-center mb-3">
             <a href="tel:8801629090158">
-              <FaPhone className="text-slate-500 hover:text-slate-600 text-5xl"></FaPhone>
+              <FaPhoneSquareAlt className="text-slate-500 hover:text-slate-600 text-5xl"></FaPhoneSquareAlt>
             </a>
           </p>
           <p className="mb-2 font-semibold">Phone</p>
