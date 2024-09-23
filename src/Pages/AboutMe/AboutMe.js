@@ -2,7 +2,7 @@ import React from "react";
 import { PhotoView } from "react-photo-view";
 import myPic from "../../assets/my-pic-2.jpg";
 
-const About = () => {
+const AboutMe = () => {
   return (
     <div className="container mx-auto mt-8 p-4">
       <div className="grid grid-cols-1 md:grid-cols-5 m-2 gap-8 max-w-5xl mx-auto">
@@ -54,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutMe;

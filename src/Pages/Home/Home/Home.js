@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import About from "../../About/About";
+import AboutMe from "../../AboutMe/AboutMe";
 import Contact from "../../Contact/Contact";
 import Projects from "../../Projects/Projects";
 import Banner from "../Banner/Banner";
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="container mx-auto">
       <Banner />
-      <About />
+      <AboutMe />
       <div className="text-center mb-6">
         <button
           className={`btn btn-ghost m-1 ${
