@@ -25,13 +25,9 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <a
-          className="m-1"
-          href="https://form.jotform.com/223433296548058"
-          target={`_blank`}
-        >
+        <NavLink to="/contact" className="m-1">
           Contact
-        </a>
+        </NavLink>
       </li>
     </>
   );
