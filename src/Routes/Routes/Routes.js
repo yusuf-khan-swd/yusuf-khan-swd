@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../../Layout/Main";
+import MainLayout from "../../Layout/MainLayout";
 import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home/Home";
 import Blog from "../../Pages/Others/Blog/Blog";
@@ -10,7 +10,7 @@ import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <MainLayout />,
     errorElement: <DisplayError />,
     children: [
       {
