@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import Contact from "../../Contact/Contact";
 import Projects from "../../Projects/Projects";
 import Banner from "../Banner/Banner";
-import Contact from "../Contact/Contact";
 import MyEducation from "../MyEducation/MyEducation";
 import MySkills from "../MySkills/MySkills";
 
