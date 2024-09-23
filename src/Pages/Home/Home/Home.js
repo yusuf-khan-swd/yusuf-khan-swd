@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../../Others/Contact/Contact";
 import Projects from "../../Projects/Projects";
 import Banner from "../Banner/Banner";
 import MySkills from "../MySkills/MySkills";
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner />
       <MySkills />
       <Projects />
+      <Contact />
     </div>
   );
 };
