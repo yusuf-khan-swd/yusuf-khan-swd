@@ -1,4 +1,6 @@
 
+deploy to firebase - 7:30 PM 9/23/2024
+
 If use Command - firebase init 
    - ( ) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
   Then select using space and enter other select is same with command - firebase init hosting
