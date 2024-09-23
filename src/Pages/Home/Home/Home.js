@@ -1,7 +1,7 @@
 import React from "react";
-import Contact from "../../Others/Contact/Contact";
 import Projects from "../../Projects/Projects";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
 import MySkills from "../MySkills/MySkills";
 
 const Home = () => {
