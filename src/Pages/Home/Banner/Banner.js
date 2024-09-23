@@ -4,6 +4,7 @@ import {
   FaFacebookSquare,
   FaGithub,
   FaLinkedin,
+  FaPhoneSquareAlt,
 } from "react-icons/fa";
 import { PhotoView } from "react-photo-view";
 import Typewriter from "typewriter-effect";
@@ -74,10 +75,12 @@ const Banner = () => {
                 </a>
               </button>
               <button className="mr-3">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100067129607025"
-                  target={`_blank`}
-                >
+                <a href="tel:8801629090158">
+                  <FaPhoneSquareAlt className="text-slate-500 hover:text-slate-600 text-5xl"></FaPhoneSquareAlt>
+                </a>
+              </button>
+              <button className="mr-3">
+                <a href="tel:8801629090158" target={`_blank`}>
                   <FaFacebookSquare className="text-slate-500 hover:text-slate-600 text-5xl"></FaFacebookSquare>
                 </a>
               </button>
