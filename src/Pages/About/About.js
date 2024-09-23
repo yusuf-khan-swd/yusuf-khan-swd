@@ -31,6 +31,22 @@ const About = () => {
                 further the company's goals.
               </p>
             </div>
+            <div className="mt-6">
+              <a
+                className="dark:bg-gray-600 bg-slate-400 btn btn-ghost w-full lg:w-52 mb-3 md:mr-2"
+                href="https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view"
+                target={`_blank`}
+              >
+                Get Resume
+              </a>
+              <a
+                href="https://www.linkedin.com/in/yusuf-khan-swd/"
+                target={`_blank`}
+                className="btn w-full lg:w-52"
+              >
+                Hire Me
+              </a>
+            </div>
           </div>
         </div>
       </div>
