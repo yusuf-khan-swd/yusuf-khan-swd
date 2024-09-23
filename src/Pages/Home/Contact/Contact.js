@@ -36,6 +36,16 @@ const Contact = () => {
           <p>Chittagong, Bangladesh</p>
         </div>
       </div>
+      <p className="my-4 text-center font-bold">Or</p>
+      <div className="text-center">
+        <a
+          href="https://form.jotform.com/223433296548058"
+          target={`_blank`}
+          className="btn w-full lg:w-72"
+        >
+          Send Message
+        </a>
+      </div>
     </div>
   );
 };
