@@ -1,6 +1,4 @@
 
-Testing local project connect with github
-
 deploy to firebase - 7:30 PM 9/23/2024
 
 If use Command - firebase init 
