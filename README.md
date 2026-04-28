@@ -64,3 +64,13 @@
 <p align="center">
   <picture><img src="https://komarev.com/ghpvc/?username=yusuf-khan-swd&label=Visitors+Count&color=brightgreen" /></picture>
 </p>
+
+---
+
+## 📫 Contact Me
+
+- 📧 yusufkhan.swd@gmail.com  
+- 🌐 https://yusuf-khan-swd.web.app/  
+- 💼 https://www.linkedin.com/in/yusuf-khan-swd  
+
+---
