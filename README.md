@@ -24,35 +24,41 @@
 - 👨‍💻 All of my projects are available at [Portfolio](https://yusuf-khan-swd.web.app/)
 - 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1qleVLJGI5jU6fmDItFsJISNvf6v3UZCs/view)
 
-###
+---
 
-<h3 align="left">🛠 Language and tools</h3>
+## 🛠 Tech Stack
 
-###
+### 💻 Frontend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind,bootstrap" />
+</p>
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" width="33" alt="javascript logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="28" width="33" alt="typescript logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" width="33" alt="nodejs logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="28" width="33" alt="express logo"  />
-  <img src="https://www.svgrepo.com/show/374002/prisma.svg" height="28" width="33" alt="prisma logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="28" width="33" alt="mongodb logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" width="33" alt="postgresql logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="28" width="33" alt="firebase logo"  />
+<p align="center">
+  <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white"/>
+</p>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" width="33" alt="react logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons//nextjs/nextjs-original.svg" height="28" width="33" alt="NextJS logo"  />
-  <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/tailwindcss-icon.svg" alt="TailwindCSS" width="28" height="33"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="28" width="33" alt="Redux logo"  />
+---
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="28" width="33" alt="bootstrap logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" width="33" alt="git logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="28" width="33" alt="npm logo"  />
-  <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Software/getpostman-icon.svg" alt="Postman" width="28" height="33"/>
-  
-</div>
+### ⚙️ Backend & Database
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase" />
+</p>
 
-###
+<p align="center">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma"/>
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge"/>
+</p>
+
+---
+
+### 🧰 Tools & Platforms
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,npm,vercel,netlify,figma,vscode" />
+</p>
+
+---
 
 ## :chart_with_upwards_trend: Current Stats
 
